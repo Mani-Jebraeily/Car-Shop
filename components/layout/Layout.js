@@ -8,14 +8,14 @@ function Layout({ children }) {
             <header className={styles.header}>
                 <Link href="/">
                     <h2>Car Shop</h2>
-                    <p>Choose an Buy your Car</p>
+                    <p>Choose and Buy your Car</p>
                 </Link>
 
             </header>
             <div className={styles.container}> {children}</div>
             <footer  className={styles.footer}>
                 <span>
-                    <Link href={"https://github.com/Mani-Jebraeily"} target='_blank'>Mani Jebreaily</Link> | Next.js Project &copy
+                    <Link href={"https://github.com/Mani-Jebraeily"} target='_blank'>Mani Jebreaily</Link> | Next.js Project 
                 </span>
             </footer>
         </>

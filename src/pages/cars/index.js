@@ -4,6 +4,8 @@ import carsData from '../../../data/carsData'
 import Categories from '../../../components/module/Categories'
 import SearchBar from '../../../components/module/SearchBar'
 
+
+
 function Details() {
   return (
     <div>

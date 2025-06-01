@@ -1,21 +1,26 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
+import CarsPage from '../../components/template/CarsPage'
+import carsData from '../../data/carsData'
+import Categories from '../../components/module/Categories'
+import SearchBar from '../../components/module/SearchBar'
+import AllButton from '../../components/module/AllButton'
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// import CarsPage from '../../components/template/CarsPage'
 
-export default function Home() {
+
+function Home() {
+
+  const cars = carsData.slice(0, 3)
   return (
     <>
-    <h1>testtttt</h1>
+      <SearchBar />
+      <Categories />
+      <AllButton/>
+      <CarsPage data={cars} />
+
+
     </>
 
   );
 }
+export default Home
