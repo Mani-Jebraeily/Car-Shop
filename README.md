@@ -24,4 +24,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 **`Desktop design`**
 
-![demo](/shop/public/Screenshot%202025-06-02%20at%2003.14.42%20(2).jpeg)
+![demo](./public/demo.jpeg)
